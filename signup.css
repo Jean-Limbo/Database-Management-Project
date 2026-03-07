@@ -1,0 +1,477 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: ghostwhite;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 100px;
+    background:#0d3c5c;
+
+}
+
+
+/*Background*/
+.main{
+    width: 100%;
+    background-size:fill;
+    height: 100%;
+    padding: 0%;  
+    
+  
+}
+
+/************* NAVIGATION BAR START *************/
+
+.navbar h1 a{
+    font-size: 50px;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+.navbar{
+    width: 100%;
+    align-items: center;
+    background:#0d3c5c;
+    background-size: fill;
+}
+
+
+.icon{
+    position: absolute;
+    display: flex;
+    width: auto;
+    float: right;
+    background-size: fill;
+    margin-top: -5px;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-left: 80px;
+    color: white;
+    font-size: 65px;
+    font-family:  sans-serif;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.rightnav{
+    display: flex;
+    float: left;
+    position:absolute;
+    color: #0d3c5c;
+    right: 90px;
+    margin-top: 10px;
+}
+
+.rightnav ul{
+    float: left;
+    display: flex;
+    list-style: none;
+}
+
+.rightnav ul li{
+    list-style: none;
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+    align-items: last baseline;
+    margin-left: 100px;
+}
+
+.rightnav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+.rightnav .text{
+    position: inherit;
+    margin-top: -28px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size:20px;
+
+}
+.rightnav .text:hover{
+    color: black;
+    text-decoration: underline;
+    transition: 0.4s ease-in-out;
+
+}
+
+.rightnav ul li a:hover{
+    color: black;
+}
+
+
+/* MENU CONTENT */
+.menu{
+    position: relative;
+    float: left;
+    width: 780px;
+    display: flex;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+   
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 6px;
+    font-size: 19px;
+    padding-left: 60px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+   
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+    
+}
+/************* NAVIGATION BAR END *************/
+
+.login{
+    margin: auto;
+    padding: auto;
+    position: relative;
+    top:70px;
+    box-sizing: border-box;
+    height: 1500px;
+}
+
+
+.cont{
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+    
+}
+
+.cont form{
+    height: 1200px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 29px;
+    background: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.cont form h1{
+    font-size: 30px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.fpwdslink {
+    font-size: 12px;
+    margin-left: 3px;
+    margin-top: -10px;    
+    color: gray;
+    text-decoration: none;
+
+}
+
+.cont a{
+    text-decoration: none;
+}
+
+.fpwdslink:hover{
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+    color: black;
+}
+
+.signupnow{
+    font-size: 15px;
+    margin-left: 3px;
+    margin-top: -10px;    
+    text-align: center;
+    color:#0d3c5c;
+}
+
+.signupnow:hover{
+    text-decoration: underline;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+.cont form .formcontrol{
+    width: 95%;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+}
+.cont form .submitbtn{
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background: #0d3c5c;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.cont form .submitbtn:hover{
+    transition-duration: 0.5s;
+    background: white;
+    color:#0d3c5c;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    background-color: black;
+    bottom: 0px;
+    display: inline-flex;
+    float: left;
+    position:relative;
+    padding: 30px;
+    color: white;
+    width: 100%;
+    height: 400px;
+
+}
+
+.footer ul{
+    float: left;
+    display: flex;
+    list-style: none;
+}
+
+.footer ul li{
+    list-style: none;
+    margin-left: 80px;
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+.footer ul li i {
+    position: inherit;
+    margin-left: -40px;
+    margin-right: 350px;
+    padding: 20px;    
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+.footer h3{
+    position: inherit;
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size:25px;
+}
+
+.footer .text h3{
+    position: inherit;
+    margin-top: -100px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size:20px;
+}
+
+
+.footer h1{
+    position: inherit;
+    margin-top: -0px;
+    margin-left: 120px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size:80px;
+}
+
+.footer p{
+    margin-top: -5px;
+    font-size: 18px;
+    width: 300px;
+    font-weight: lighter;
+}
+
+.footer p:hover{
+    color: aquamarine;
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+    
+
+.footer .texthead{
+    margin-top: -50px;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 120px;
+    font-weight: lighter;
+    font-size: 17px;
+    
+}
+
+.footer .texthead{
+    margin-top: -50px;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 120px;
+    font-weight: lighter;
+    font-size: 17px;
+    margin-bottom: 30px;
+        
+ }
+
+ .footer ul li i{
+    position: relative;    
+    font-size: 16px;
+    width: 300px;
+    margin-left: 100px;
+    font-weight: lighter;
+    font-size: 17px;
+    margin-top: 10px;
+
+        
+ }
+
+ .footer .text{
+    position: inherit;    
+    font-size: 16px;
+    width: 300px;
+    margin-left: 170px;
+    font-weight: lighter;
+    font-size: 17px;
+    margin-top: -25px;
+        
+ }
+
+.footer .methodsicon{
+    position: relative;
+    margin-left: -120px;
+}
+
+.footer .text1{
+    position: inherit;    
+    font-size: 16px;
+    width: 300px;
+    margin-left: 60px;
+    font-weight: lighter;
+    font-size: 17px;
+    margin-top: -40px;
+            
+}
+
+.allrights{
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.allrights p{
+    margin-left: -50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    border-top: 1px solid;
+}
+
+
+

@@ -1,0 +1,104 @@
+[
+    {
+        "id": "01",
+        "name": "Behind Closed Doors",
+        "price": 400,
+        "image": "image/bcd.jpg"
+    },
+    {
+        "id": "02",
+        "name": "Chase Me",
+        "price": 500,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "03",
+        "name": "Harry Potter and the Philosopher's Stone",
+        "price": 500,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "04",
+        "name": "His Dark Materials",
+        "price": 500,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "05",
+        "name": "Inkheart",
+        "price": 300,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "06",
+        "name": "Percy Jackson and the Olympians",
+        "price": 750,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "07",
+        "name": "Shakespeare's Sonnets",
+        "price": 560,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "08",
+        "name": "Stardust",
+        "price": 500,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "09",
+        "name": "The Chronicles of Narnia",
+        "price": 650,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "10",
+        "name": "The Dark is Rising",
+        "price": 400,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "11",
+        "name": "The Hobbit",
+        "price": 660,
+        "image":"image/cm.jpg"
+    },
+    {
+        "id": "12",
+        "name": "The Hunger Games",
+        "price": 500,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "13",
+        "name": "The Inheritance Cycle",
+        "price": 550,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "14",
+        "name": "The Magicians",
+        "price": 350,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "15",
+        "name": "The Old Man and The Sea",
+        "price": 700,
+        "image": "image/cm.jpg"
+    },
+    {
+        "id": "16",
+        "name": "This Could Be Us",
+        "price": 750,
+        "image": "image/thcbu.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Tipping the Velvet",
+        "price": 350,
+        "image": "image/ttv.jpg"
+    }
+]
